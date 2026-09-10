@@ -47,7 +47,7 @@
 
 ## 1. Executive Summary
 
-SmartSchedule is a Python-based desktop application that helps university students generate **clash-free weekly timetables** by intelligently scheduling their selected courses. The application takes as input a list of courses (with their available time slots and rooms) and automatically produces an optimal timetable that respects all hard constraints (no overlapping classes) and soft constraints (student preferences such as avoiding early mornings, minimizing gaps, etc.).
+SmartSchedule is a Python-based desktop application that helps university students generate **Clash free weekly timetable** by intelligently scheduling their selected courses. The application takes as input a list of courses (with their available time slots and rooms) and automatically produces an optimal timetable that respects all hard constraints (no overlapping classes) and soft constraints (student preferences such as avoiding early mornings, minimizing gaps, etc.).
 
 Unlike manual checking, SmartSchedule uses **Constraint Satisfaction Problem (CSP)** techniques combined with **heuristic search** to explore possible schedules efficiently. It provides interactive clash resolution suggestions and allows students to refine their preferences to obtain the best possible timetable. The final schedule can be visualized in a clean weekly view and exported to CSV for sharing or printing.
 
@@ -89,7 +89,7 @@ As a result, students may end up with suboptimal schedules, miss important class
 
 ## 4. Target Audience
 
-- **Primary Users**: University students (undergraduate and graduate) who are selecting courses for an upcoming semester.
+- **Primary Users**: University students (undergraduate and graduate) who are selecting courses for an upcoming semester and need to select previous semester courses.
 - **Secondary Users**: Academic advisors or peer mentors who assist students in course planning.
 
 **User Characteristics:**
